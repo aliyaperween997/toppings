@@ -1,0 +1,182 @@
+*{
+
+margin: 0;
+padding: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(120deg, #ffffff , #000000);
+    scroll-behavior: smooth;
+
+
+
+}
+
+nav{
+    position: relative;
+    background: rgb(255, 140, 0);
+    height: 40px;
+
+    
+}
+ul{
+    position: relative;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+        left: 20%;
+
+}
+
+li{
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+
+
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+.hero{
+    height: 500px;
+}
+.hero img{
+    position:absolute;
+    height: 400px;
+    width: 400px;
+    border: 2px solid pink;
+    border-radius:50px ;
+    left: 20px;
+    margin-top: 20px;
+}
+
+.hero p{
+    position: absolute;
+    width: 600px;
+    right: 80px;
+    font-size: 22px;
+color: wheat;
+margin-top: 22px;
+}
+.hero button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.about{
+    height: 400px;
+    background: linear-gradient(130deg, orange, #ffffff, green
+    );
+    height: 200;
+}
+.about h1{
+    position: relative;
+    text-align: center;
+}
+.about img{
+    position: absolute;
+     height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px dotted darkblue;
+    
+}
+.about p{
+    position: absolute;
+    width: 500px;
+    font-size: 22px;
+    right: 100px;
+    margin: 30px 20px 60px 1000px;
+}
+.about button{
+    position: absolute;
+display: grid;
+grid-column: auto;
+padding: 10px;
+right: 50px;
+margin-top: 100px;
+}
+.contact{
+    height: 300px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background: orange;
+    font-size: 22px;
+    animation: razo 3s linear infinite ;
+
+}
+
+.contact p{
+font-size: 22px;
+}
+.contact h2{
+    text-decoration: underline;
+}
+
+@keyframes razo {
+    0%{
+        transform: translateY(0px);
+        background-color: orange;
+    }
+    50%{
+        transform: translateY(-30px);
+        background-color: white;
+    }
+    100%{
+        transform: translateY(0px);
+        background: green;
+    }
+}
+
+@keyframes identifier {
+    
+}
+
+@media screen and (max-width:776px) {
+   .hero img{
+        height: 200px;
+        width: 200px;
+    }
+    .hero p{
+        right: 20px;
+        font-size: 18px;
+        width: 250px;
+    }
+.about img{
+    height: 200px ;
+    width: 200px;
+}
+    .about p{
+width: 240px;
+font-size: 17px;
+
+    }
+
+}
+
+@media screen and (max-width:443px) {
+.about img{
+    height: 200px;
+    width: 200px;
+
+}    
+.
+}
